@@ -225,10 +225,33 @@ textarea {
   min-height: 100vh;
   color: white;
   background-color: red;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header {
   height: 100vh;
+  width: 100vw;
+  background-image: url("https://pathfiinder.github.io/MoGo/images/header__bgc-image.png");
+  background-repeat: no-repeat;
+  background-size: 150% 100%;
+  background-position-x: -120px;
+}
+
+.header__container {
+  height: 70px;
+  width: 100%;
+  background-color: pink;
+}
+
+.header__container .header__logo {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 70px;
+  margin-left: 20px;
+}
+
+.header__description {
+  display: none;
 }
 
 .about-us {
