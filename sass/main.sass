@@ -1,82 +1,21 @@
-@import "base/_reset.sass"
 @import "utlils/_variables.sass"
 
-
-
-.header
-    height: 100vh
-    background-image: url("https://pathfiinder.github.io/MoGo/images/header__bgc-image.png")
-    background-repeat: no-repeat
-    background-size: 150% 100%
-    background-position-x: -120px
-    @media (min-width: 1200px)
-        background-size: 100% 100%
-        background-position-x: 0
-
-.navbar
-    .navbar-brand
-        font-size: x-large
-
-.navbar .navbar-nav .nav-link:focus, .navbar .navbar-nav .nav-link:hover 
-    color: #fce38a !important
-    font-weight: bold
-    position: relative
-.navbar .navbar-nav .nav-after:hover:after
-    content: ""
-    position: absolute 
-    height: 3px
-    width: 90%
-    background-color: #fce38a
-    left: 50%
-    bottom: 0
-    width: 90px
-    transform: translateX(-50%)
-    @media (min-width: 576px)
-        width: 90%
-       
-
-
-.header-wrapper
-    height: calc(100vh - 50px) 
-    position: relative
-    .container
-        height: 95%
-        padding-top: 5%
-
-.carousel
-    .carousel-inner
-        height: 100%
-        .carousel-item
-            height: 100%
-            position: relative
-        .carousel-h1
-            font-family: 'Kaushan Script', cursive
-            font-size: xx-large
-            position: absolute
-            top: 40px
-            left: 50%
-            transform: translateX(-50%)
-            width: 100%
-        .carousel-h2
-            text-transform: uppercase
-            font-weight: bold
-            font-size: 50px
-            position: absolute
-            top: 120px
-            left: 50%
-            transform: translateX(-50%)
-        .btn-outline-light:before
-            content: ""
-            position: absolute
-            bottom: 110px
-            left: 50%
-            transform: translateX(-50%)
-            height: 3px
-            width: 60px
-            background-color: white
-        .btn-outline-light
-            position: absolute
-            bottom: 80px
-            left: 50%
-            transform: translateX(-50%)
-            
+    
+    
+body
+    padding: 0
+    margin: 0
+    box-sizing: border-box    
+    min-width: 320px
+    
+    
+    
+    
+    
+    
+    
+@import "components/_header.sass"
+@import "components/_about-us.sass"
+@import "components/_stats.sass"
+@import "components/_services.sass"
+@import "components/_design.sass"

@@ -1,0 +1,51 @@
+.services
+    .container
+        .services__wrapper
+            .services__title
+                font-family: "Kaushan Script"
+                font-size: x-large
+            .services__subtitle
+                position: relative
+                &:before
+                    content: ""
+                    position: absolute
+                    bottom: -22px
+                    left: 50%
+                    transform: translateX(-50%)
+                    height: 3px
+                    width: 80px
+                    background-color: red 
+        .row
+            @media (max-width: 575px)
+                min-height: 718px
+            @media (min-width: 576px)
+                min-height: 500px
+            .row-item
+                position: relative
+                .services__icon
+                    position: absolute
+                    top: 10px
+                    left: 10px
+                    color: #95e1d3
+                    width: 32px
+                    height: 31px
+                    font-size: 26px
+                    padding-left: 3px
+                    line-height: 31px
+                .services__title
+                    position: absolute
+                    top: 10px
+                    left: 50px
+                    @media (min-width: 576px)
+                        font-size: 1.1rem
+                    @media (min-width: 768px)
+                        font-size: 1.5rem
+                .services__content
+                    font-size: 15px
+                    color: #999999
+                    position: absolute
+                    top: 50px
+                    width: 80%
+                    left: 50%
+                    transform: translateX(-50%)
+
