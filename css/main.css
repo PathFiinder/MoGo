@@ -8,6 +8,7 @@ body {
 
 .header {
   height: 100vh;
+  min-height: 100vh;
   background-image: url("https://pathfiinder.github.io/MoGo/images/header__bgc-image.png");
   background-repeat: no-repeat;
   background-size: 150% 100%;
@@ -78,13 +79,13 @@ body {
   padding-top: 5%;
 }
 
-.carousel .carousel-indicators {
+.header-wrapper .container .carousel .carousel-indicators {
   margin: 0 auto;
   height: 10px;
   width: 90%;
 }
 
-.carousel .carousel-indicators li[data-target="#carouselId"] {
+.header-wrapper .container .carousel .carousel-indicators li[data-target="#carouselId"] {
   -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
   height: 8px;
@@ -95,20 +96,20 @@ body {
   background-color: transparent;
 }
 
-.carousel .carousel-indicators li[data-target="#carouselId"].active {
+.header-wrapper .container .carousel .carousel-indicators li[data-target="#carouselId"].active {
   background-color: white;
 }
 
-.carousel .carousel-inner {
+.header-wrapper .container .carousel .carousel-inner {
   height: 100%;
 }
 
-.carousel .carousel-inner .carousel-item {
+.header-wrapper .container .carousel .carousel-inner .carousel-item {
   height: 100%;
   position: relative;
 }
 
-.carousel .carousel-inner .carousel-h1 {
+.header-wrapper .container .carousel .carousel-inner .carousel-h1 {
   font-family: 'Kaushan Script', cursive;
   font-size: xx-large;
   position: absolute;
@@ -120,32 +121,32 @@ body {
 }
 
 @media (min-height: 812px) {
-  .carousel .carousel-inner .carousel-h1 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
     top: 60px;
   }
 }
 
 @media (min-width: 568px) {
-  .carousel .carousel-inner .carousel-h1 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
     top: 0px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .carousel .carousel-inner .carousel-h1 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
     top: 80px;
     font-size: 72px;
   }
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .carousel .carousel-inner .carousel-h1 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
     top: 80px;
     font-size: 72px;
   }
 }
 
-.carousel .carousel-inner .carousel-h2 {
+.header-wrapper .container .carousel .carousel-inner .carousel-h2 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 50px;
@@ -157,33 +158,33 @@ body {
 }
 
 @media (min-height: 812px) {
-  .carousel .carousel-inner .carousel-h2 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
     top: 180px;
   }
 }
 
 @media (min-width: 568px) {
-  .carousel .carousel-inner .carousel-h2 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
     top: 50px;
     font-size: 40px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .carousel .carousel-inner .carousel-h2 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
     top: 240px;
     font-size: 72px;
   }
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .carousel .carousel-inner .carousel-h2 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
     top: 240px;
     font-size: 72px;
   }
 }
 
-.carousel .carousel-inner .btn-outline-light:before {
+.header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
   content: "";
   position: absolute;
   bottom: 110px;
@@ -197,32 +198,32 @@ body {
 }
 
 @media (min-height: 812px) {
-  .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
     bottom: 160px;
   }
 }
 
 @media (min-width: 568px) {
-  .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
     display: none;
   }
 }
 
 @media (min-width: 731px) {
-  .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
     display: block;
     bottom: 90px;
   }
 }
 
 @media (min-width: 812px) {
-  .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
     bottom: 70px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
     bottom: 250px;
     height: 5px;
     width: 100px;
@@ -230,14 +231,14 @@ body {
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
     bottom: 120px;
     height: 5px;
     width: 100px;
   }
 }
 
-.carousel .carousel-inner .btn-outline-light {
+.header-wrapper .container .carousel .carousel-inner .btn-outline-light {
   position: absolute;
   bottom: 80px;
   left: 50%;
@@ -248,25 +249,25 @@ body {
 }
 
 @media (min-height: 812px) {
-  .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
     bottom: 150px;
   }
 }
 
 @media (min-width: 568px) {
-  .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
     bottom: 30px;
   }
 }
 
 @media (min-width: 640px) {
-  .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
     bottom: 50px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
     bottom: 150px;
     height: 80px;
     width: 280px;
@@ -275,7 +276,7 @@ body {
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
     bottom: 100px;
     height: 80px;
     width: 280px;
@@ -283,7 +284,7 @@ body {
   }
 }
 
-.carousel .carousel-inner .btn-outline-light:hover {
+.header-wrapper .container .carousel .carousel-inner .btn-outline-light:hover {
   background-color: transparent;
   color: #fce38a;
   border-color: #fce38a;
@@ -325,6 +326,73 @@ body {
   font-size: 13px;
 }
 
+.about-us .container .row {
+  margin: 0 auto;
+}
+
+.about-us .container .row .about-img, .about-us .container .row .about-us-1, .about-us .container .row .about-us-2, .about-us .container .row .about-us-3 {
+  min-height: 180px;
+  background-size: cover;
+}
+
+.about-us .container .row .about-img:hover .overlay, .about-us .container .row .about-us-1:hover .overlay, .about-us .container .row .about-us-2:hover .overlay, .about-us .container .row .about-us-3:hover .overlay {
+  display: block;
+}
+
+.about-us .container .row .about-img:hover .about-hov, .about-us .container .row .about-us-1:hover .about-hov, .about-us .container .row .about-us-2:hover .about-hov, .about-us .container .row .about-us-3:hover .about-hov {
+  display: block;
+}
+
+.about-us .container .row .about-us-1 {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/about-us-3.png");
+  border-right: white solid 10px;
+  margin-bottom: 10px;
+}
+
+.about-us .container .row .about-us-2 {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/about-us-2.png");
+  border-right: white solid 10px;
+  margin-bottom: 10px;
+}
+
+.about-us .container .row .about-us-3 {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/about-us-1.png");
+  border-right: white solid 10px;
+  margin-bottom: 10px;
+}
+
+.about-us .container .row .overlay {
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#e3cd7c), to(#db7674));
+  background: linear-gradient(0deg, #e3cd7c, #db7674);
+  opacity: 0.95;
+  top: 0;
+  left: 0;
+  position: absolute;
+  display: none;
+}
+
+.about-us .container .row .about-hov {
+  top: 50px;
+  left: 0;
+  right: 0;
+  color: white;
+  display: none;
+  position: absolute;
+}
+
+.about-us .container .row .about-hov .fa {
+  font-size: 32px;
+}
+
+.about-us .container .row .about-hov p {
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  color: white;
+}
+
 .stats {
   background-color: #95e1d3;
   height: 200px;
@@ -332,7 +400,7 @@ body {
 
 .stats .row {
   height: 100%;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -436,6 +504,32 @@ body {
           transform: translateX(-50%);
 }
 
+.design {
+  min-height: 500px;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .design {
+    height: 700px;
+  }
+}
+
+.design::after {
+  content: "";
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url("https://pathfiinder.github.io/MoGo/images/design_bgc.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+}
+
 .design .container .design__wrapper .design__title {
   font-family: "Kaushan Script";
   font-size: x-large;
@@ -455,5 +549,314 @@ body {
   height: 3px;
   width: 70px;
   background-color: red;
+}
+
+.design .container .design__image {
+  position: absolute;
+  bottom: -28px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 280px;
+  height: 300px;
+}
+
+@media (min-width: 731px) {
+  .design .container .design__image {
+    width: 350px;
+    height: 320px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .design .container .design__image {
+    width: 450px;
+    height: 450px;
+    bottom: -40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .design .container .design__image {
+    height: 520px;
+    bottom: -47px;
+  }
+}
+
+.services2 .services2__title {
+  font-family: "Kaushan Script";
+  font-size: x-large;
+}
+
+.services2 .services2__subtitle {
+  position: relative;
+}
+
+.services2 .services2__subtitle:before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 3px;
+  width: 70px;
+  background-color: red;
+}
+
+.services2 .services2__content {
+  color: #999999;
+  font-size: 13px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.services2 .services2__image {
+  min-height: 230px;
+}
+
+@media (min-width: 576px) {
+  .services2 .services2__image {
+    min-height: 265px;
+  }
+}
+
+.services2 .card-header {
+  position: relative;
+  height: 30px;
+}
+
+@media (min-width: 1024px) {
+  .services2 .card-header {
+    height: 45px;
+  }
+}
+
+.services2 .card-header .card-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #95e1d3;
+  font-size: 22px;
+  height: 25px;
+  width: 25px;
+}
+
+.services2 .card-header .card-icon--rotate {
+  -webkit-transform: translateY(-50%) rotate(90deg);
+          transform: translateY(-50%) rotate(90deg);
+}
+
+.services2 .card-header .card-text {
+  position: absolute;
+  top: 0;
+  left: 50px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+  .services2 .card-header .card-text {
+    line-height: 45px;
+  }
+}
+
+.services2 .card-header .card-arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #cccccc;
+  height: 18px;
+  width: 18px;
+  font-size: 16px;
+}
+
+@media (min-width: 1024px) {
+  .services2 .card-header .card-arrow {
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+}
+
+.services2 .card-body {
+  padding: 10px;
+  min-height: 140px;
+}
+
+.services2 .card-content {
+  font-size: 10px;
+  color: #999999;
+  margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+  .services2 .card-content {
+    font-size: 13px;
+  }
+}
+
+.quotes {
+  background-color: #f8f8f8;
+  height: 290px;
+  padding-top: 35px;
+}
+
+.quotes .container {
+  width: 90%;
+}
+
+.quotes .carousel-item {
+  height: 220px !important;
+}
+
+.quotes .carousel-item .quotes__icon {
+  height: 50px;
+  width: 50px;
+  border: 3px solid #95e1d3;
+  color: #95e1d3;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 40px;
+}
+
+@media (min-width: 568px) {
+  .quotes .carousel-item .quotes__icon {
+    left: 72px;
+  }
+}
+
+@media (min-width: 768px) {
+  .quotes .carousel-item .quotes__icon {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    height: 70px;
+    width: 70px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quotes .carousel-item .quotes__icon {
+    height: 120px;
+    width: 120px;
+    font-size: 80px;
+    line-height: 110px;
+    left: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quotes .carousel-item .quotes__icon {
+    left: 110px;
+  }
+}
+
+.quotes .carousel-item .quotes__content {
+  position: absolute;
+  color: #999999;
+  font-size: 15px;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+  .quotes .carousel-item .quotes__content {
+    width: 60%;
+    left: 55%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quotes .carousel-item .quotes__content {
+    font-size: 18px;
+    left: 58%;
+  }
+}
+
+.quotes .carousel-item .quotes__author {
+  font-family: "Kaushan Script";
+  color: #333333;
+  position: absolute;
+  font-size: 13px;
+  bottom: 50px;
+  left: 70px;
+}
+
+@media (min-width: 568px) {
+  .quotes .carousel-item .quotes__author {
+    left: 103px;
+  }
+}
+
+@media (min-width: 768px) {
+  .quotes .carousel-item .quotes__author {
+    left: 195px;
+    bottom: 60px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quotes .carousel-item .quotes__author {
+    left: 280px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quotes .carousel-item .quotes__author {
+    left: 340px;
+  }
+}
+
+.quotes .carousel-item .quotes__author:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: red;
+  height: 2px;
+  width: 20px;
+}
+
+.quotes .carousel-control-prev-icon {
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+}
+
+.quotes .carousel-control-prev-icon:after {
+  content: '<';
+  color: black;
+  font-size: 40px;
+}
+
+.quotes .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+}
+
+.quotes .carousel-control-next-icon:after {
+  content: '>';
+  color: black;
+  font-size: 40px;
 }
 /*# sourceMappingURL=main.css.map */

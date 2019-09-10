@@ -1,0 +1,75 @@
+.services2
+    .services2__title
+        font-family: "Kaushan Script"
+        font-size: x-large
+    .services2__subtitle
+        position: relative
+        &:before
+            content: ""
+            position: absolute
+            bottom: -22px
+            left: 50%
+            transform: translateX(-50%)
+            height: 3px
+            width: 70px
+            background-color: red 
+    .services2__content
+        color: #999999
+        font-size: 13px
+        width: 90%
+        margin: 0 auto
+    .services2__image
+        min-height: 230px
+        @media (min-width: 576px)
+            min-height: 265px
+    .card-header
+        position: relative
+        height: 30px 
+        @media (min-width: 1024px)
+            height: 45px
+        .card-icon
+            position: absolute
+            top: 50%
+            left: 10px
+            transform: translateY(-50%)
+            color: #95e1d3
+            font-size: 22px
+            height: 25px
+            width: 25px
+            &--rotate
+                transform: translateY(-50%) rotate(90deg)
+        .card-text
+            position: absolute
+            top: 0
+            left: 50px
+            line-height: 30px
+            cursor: pointer
+            @media (min-width: 1024px)
+                line-height: 45px
+        .card-arrow
+            position: absolute
+            right: 10px
+            top: 50%
+            transform: translateY(-50%)
+            color: #cccccc
+            height: 18px
+            width: 18px
+            font-size: 16px
+            @media (min-width: 1024px)
+                height: 25px
+                width: 25px
+                font-size: 20px
+                text-align: center
+                line-height: 25px
+
+
+    .card-body
+        padding: 10px
+        min-height: 140px
+    .card-content
+       font-size: 10px
+       color: #999999
+       margin-bottom: 0
+       
+       @media (min-width: 1024px)
+           font-size: 13px

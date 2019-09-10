@@ -1,4 +1,21 @@
 .design
+    min-height: 500px
+    position: relative
+    @media (min-width: 1024px)
+        height: 700px
+    &::after
+        content: ""
+        opacity: 0.4
+        top: 0
+        left: 0
+        bottom: 0
+        right: 0
+        position: absolute
+        z-index: -1  
+        background-image: url("https://pathfiinder.github.io/MoGo/images/design_bgc.png")
+        background-repeat: no-repeat
+        background-size: 100% 100%
+        background-color: rgba(255,255,255,1)
     .container
         .design__wrapper
             .design__title
@@ -15,3 +32,24 @@
                     height: 3px
                     width: 70px
                     background-color: red 
+        .design__image
+            position: absolute
+            bottom: -28px
+            left: 50%
+            transform: translateX(-50%)
+            width: 280px
+            height: 300px
+            @media (min-width: 731px)
+                width: 350px
+                height: 320px
+            @media (min-width: 1024px)
+                width: 450px
+                height: 450px
+                bottom: -40px
+            @media (min-width: 1200px)
+                height: 520px
+                bottom: -47px
+            //max-width: 636px
+            //max-height: 713px
+    
+               
