@@ -395,13 +395,25 @@ body {
 
 .stats {
   background-color: #95e1d3;
-  height: 200px;
+  height: 250px;
+}
+
+@media (min-width: 576px) {
+  .stats {
+    height: 200px;
+  }
 }
 
 .stats .row {
   height: 100%;
-  width: 70%;
+  width: 75%;
   margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .stats .row {
+    width: 70%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -422,7 +434,7 @@ body {
 
 @media (min-width: 576px) {
   .stats .row .stats__item .stats__desc {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
 
@@ -617,7 +629,7 @@ body {
 
 @media (min-width: 576px) {
   .services2 .services2__image {
-    min-height: 265px;
+    min-height: 273px;
   }
 }
 
@@ -858,5 +870,48 @@ body {
   content: '>';
   color: black;
   font-size: 40px;
+}
+
+.team .team__title {
+  font-family: "Kaushan Script";
+  font-size: x-large;
+}
+
+.team .team__subtitle {
+  position: relative;
+}
+
+.team .team__subtitle:before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 3px;
+  width: 70px;
+  background-color: red;
+}
+
+.team .team__content {
+  color: #999999;
+  font-size: 13px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.team .row {
+  text-align: center;
+}
+
+.team .row .team__image {
+  width: 100%;
+  max-width: 450px;
+}
+
+@media (min-width: 576px) {
+  .team .row .team__image {
+    max-width: auto;
+  }
 }
 /*# sourceMappingURL=main.css.map */

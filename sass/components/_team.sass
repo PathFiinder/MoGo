@@ -1,0 +1,28 @@
+.team
+    .team__title
+        font-family: "Kaushan Script"
+        font-size: x-large
+    .team__subtitle
+        position: relative
+        &:before
+            content: ""
+            position: absolute
+            bottom: -22px
+            left: 50%
+            transform: translateX(-50%)
+            height: 3px
+            width: 70px
+            background-color: red 
+    .team__content
+        color: #999999
+        font-size: 13px
+        width: 90%
+        margin: 0 auto
+    .row
+        text-align: center
+        .team__image
+            width: 100%
+            max-width: 450px
+            @media (min-width: 576px)
+                max-width: auto
+        

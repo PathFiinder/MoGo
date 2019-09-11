@@ -1,10 +1,14 @@
 .stats
     background-color: #95e1d3
-    height: 200px
+    height: 250px
+    @media (min-width: 576px)
+        height: 200px
     .row 
         height: 100%
-        width: 70%
+        width: 75%
         margin: 0 auto
+        @media (min-width: 1024px)
+            width: 70%
         .stats__item
             @media (min-width: 576px)
                 flex-basis: 20%
@@ -15,4 +19,4 @@
                 margin-top: 45px
             .stats__desc
                 @media (min-width: 576px)
-                    font-size: 1.2rem
+                    font-size: 1.1rem
