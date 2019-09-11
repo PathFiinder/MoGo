@@ -18,3 +18,99 @@
         font-size: 13px
         width: 90%
         margin: 0 auto
+    .row
+        padding: 0
+        .work__col--1
+            @media (min-width: 576px)
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+            .work__item
+                margin: 4px
+                flex-basis: calc(50% - 8px)
+        .work__col--2
+            @media (min-width: 576px)
+                padding-right: 0
+                padding-left: 0
+        .work__item
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: center
+            height: 285px
+            margin-bottom: 5px
+            padding: 0
+            position: relative
+            &--one
+                background-image: url("https://pathfiinder.github.io/MoGo/images/work_1.png")
+            &--two
+                background-image: url("https://pathfiinder.github.io/MoGo/images/work_2.png")
+            &--three
+                background-image: url("https://pathfiinder.github.io/MoGo/images/work_3.png")
+            &--four
+                background-image: url("https://pathfiinder.github.io/MoGo/images/work_4.png")
+            &--five
+                background-image: url("https://pathfiinder.github.io/MoGo/images/work_5.png")
+                height: 580px
+                @media (min-width: 576px)
+                    max-width: 100%
+            &--six
+                background-image: url("https://pathfiinder.github.io/MoGo/images/work_6.png")
+            &--seven
+                background-image: url("https://pathfiinder.github.io/MoGo/images/work_7.png")
+            .overlay
+                display: none
+                background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%)
+                height: 100%
+            .work__container
+                display: none
+                height: 30%
+                width: 65%
+                max-height: 142px
+                overflow: hidden
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%,-50%)
+                @media (min-width: 576px)
+                    height: 45%
+                @media (min-width: 1200px)
+                    height: 40%
+                .work__icon
+                    font-size: 24px
+                    position: absolute
+                    top: 10px
+                    left: 50%
+                    transform: translateX(-50%)
+                .work__header1
+                    font-size: 14px
+                    position: absolute
+                    top: 40px
+                    left: 50%
+                    transform: translateX(-50%)
+                    width: 100%
+                    @media (min-width: 576px)
+                        font-size: 12px
+                    @media (min-width: 992px)
+                        font-size: 14px
+                    @media (min-width: 1200px)
+                        top: 45px
+                .work__header2
+                    font-size: 12px
+                    position: absolute
+                    top: 60px
+                    left: 50%
+                    transform: translateX(-50%)
+                    width: 100%
+                    @media (min-width: 576px)
+                        top: 70px
+                    @media (min-width: 992px)
+                        font-size: 13px
+                        top: 80px
+                    @media (min-width: 1200px)
+                        top: 75px
+
+
+        .work__item:hover .overlay
+            display: block
+        .work__item:hover .work__container
+            display: block

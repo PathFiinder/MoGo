@@ -1,0 +1,94 @@
+.quotes2
+    background-color: white
+    height: 350px
+    padding-top: 35px
+    .container
+        width: 90%
+        height: 90%
+    .carousel-item
+        height: 315px 
+        position: relative
+        .quotes2__image
+            height: 50px
+            width: 50px
+            position: absolute
+            top: 10px
+            left: 50%
+            transform: translateX(-50%)
+            height: 75px
+            width: 75px
+            @media (min-width: 576px)
+                top: 20px
+            @media (min-width: 768px)
+                top: 30px
+                transform: none
+                left: 12%    
+                height: 100px
+                width: 100px
+            @media (min-width: 1200px)
+                top: 30px
+                transform: none
+                left: 12%    
+                height: 120px
+                width: 120px
+        .quotes2__content
+            position: absolute
+            color: #999999
+            font-size: 12px
+            width: 60%
+            top: 50%
+            left: 50%
+            transform: translate(-50%,-50%)
+            @media (min-width: 768px)
+                width: 60%
+                left: 55%
+            @media (min-width: 1024px)
+                font-size: 18px
+                left: 58%
+            @media (min-width: 1200px)
+                left: 55%
+        .quotes2__author
+            font-family: "Kaushan Script"
+            color: #333333
+            position: absolute
+            font-size: 13px
+            bottom: 60px
+            left: 32%
+            @media (min-width: 576px)
+                left: 26%
+            @media (min-width: 768px)
+                left: 195px
+                bottom: 60px
+                font-size: 15px
+            @media (min-width: 1024px)
+                left: 280px
+                font-size: 17px
+            @media (min-width: 1200px)
+                left: 340px
+            &:before
+                content: ""
+                position: absolute
+                top: 50%
+                left: -30px
+                transform: translateY(-50%)
+                background-color: red
+                height: 2px
+                width: 20px
+    .carousel-control-prev,.carousel-control-next
+        height: 283.5px !important
+    .carousel-control-prev-icon
+        height: 40px
+        width: 40px
+        line-height: 30px
+        &:after
+            content: '<'
+            color: black
+            font-size: 40px
+    .carousel-control-next-icon
+        height: 40px
+        width: 40px
+        line-height: 30px
+        &:after
+            content: '>'
+            color: black
+            font-size: 40px

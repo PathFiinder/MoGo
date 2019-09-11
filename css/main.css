@@ -1106,4 +1106,375 @@ body {
   width: 90%;
   margin: 0 auto;
 }
+
+.work .row {
+  padding: 0;
+}
+
+@media (min-width: 576px) {
+  .work .row .work__col--1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.work .row .work__col--1 .work__item {
+  margin: 4px;
+  -ms-flex-preferred-size: calc(50% - 8px);
+      flex-basis: calc(50% - 8px);
+}
+
+@media (min-width: 576px) {
+  .work .row .work__col--2 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.work .row .work__item {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 285px;
+  margin-bottom: 5px;
+  padding: 0;
+  position: relative;
+}
+
+.work .row .work__item--one {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/work_1.png");
+}
+
+.work .row .work__item--two {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/work_2.png");
+}
+
+.work .row .work__item--three {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/work_3.png");
+}
+
+.work .row .work__item--four {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/work_4.png");
+}
+
+.work .row .work__item--five {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/work_5.png");
+  height: 580px;
+}
+
+@media (min-width: 576px) {
+  .work .row .work__item--five {
+    max-width: 100%;
+  }
+}
+
+.work .row .work__item--six {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/work_6.png");
+}
+
+.work .row .work__item--seven {
+  background-image: url("https://pathfiinder.github.io/MoGo/images/work_7.png");
+}
+
+.work .row .work__item .overlay {
+  display: none;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9)));
+  background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+  height: 100%;
+}
+
+.work .row .work__item .work__container {
+  display: none;
+  height: 30%;
+  width: 65%;
+  max-height: 142px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (min-width: 576px) {
+  .work .row .work__item .work__container {
+    height: 45%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work .row .work__item .work__container {
+    height: 40%;
+  }
+}
+
+.work .row .work__item .work__container .work__icon {
+  font-size: 24px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.work .row .work__item .work__container .work__header1 {
+  font-size: 14px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .work .row .work__item .work__container .work__header1 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .work .row .work__item .work__container .work__header1 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work .row .work__item .work__container .work__header1 {
+    top: 45px;
+  }
+}
+
+.work .row .work__item .work__container .work__header2 {
+  font-size: 12px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .work .row .work__item .work__container .work__header2 {
+    top: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .work .row .work__item .work__container .work__header2 {
+    font-size: 13px;
+    top: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work .row .work__item .work__container .work__header2 {
+    top: 75px;
+  }
+}
+
+.work .row .work__item:hover .overlay {
+  display: block;
+}
+
+.work .row .work__item:hover .work__container {
+  display: block;
+}
+
+.quotes2 {
+  background-color: white;
+  height: 350px;
+  padding-top: 35px;
+}
+
+.quotes2 .container {
+  width: 90%;
+  height: 90%;
+}
+
+.quotes2 .carousel-item {
+  height: 315px;
+  position: relative;
+}
+
+.quotes2 .carousel-item .quotes2__image {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 75px;
+  width: 75px;
+}
+
+@media (min-width: 576px) {
+  .quotes2 .carousel-item .quotes2__image {
+    top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .quotes2 .carousel-item .quotes2__image {
+    top: 30px;
+    -webkit-transform: none;
+            transform: none;
+    left: 12%;
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quotes2 .carousel-item .quotes2__image {
+    top: 30px;
+    -webkit-transform: none;
+            transform: none;
+    left: 12%;
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.quotes2 .carousel-item .quotes2__content {
+  position: absolute;
+  color: #999999;
+  font-size: 12px;
+  width: 60%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (min-width: 768px) {
+  .quotes2 .carousel-item .quotes2__content {
+    width: 60%;
+    left: 55%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quotes2 .carousel-item .quotes2__content {
+    font-size: 18px;
+    left: 58%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quotes2 .carousel-item .quotes2__content {
+    left: 55%;
+  }
+}
+
+.quotes2 .carousel-item .quotes2__author {
+  font-family: "Kaushan Script";
+  color: #333333;
+  position: absolute;
+  font-size: 13px;
+  bottom: 60px;
+  left: 32%;
+}
+
+@media (min-width: 576px) {
+  .quotes2 .carousel-item .quotes2__author {
+    left: 26%;
+  }
+}
+
+@media (min-width: 768px) {
+  .quotes2 .carousel-item .quotes2__author {
+    left: 195px;
+    bottom: 60px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quotes2 .carousel-item .quotes2__author {
+    left: 280px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quotes2 .carousel-item .quotes2__author {
+    left: 340px;
+  }
+}
+
+.quotes2 .carousel-item .quotes2__author:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-color: red;
+  height: 2px;
+  width: 20px;
+}
+
+.quotes2 .carousel-control-prev, .quotes2 .carousel-control-next {
+  height: 283.5px !important;
+}
+
+.quotes2 .carousel-control-prev-icon {
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+}
+
+.quotes2 .carousel-control-prev-icon:after {
+  content: '<';
+  color: black;
+  font-size: 40px;
+}
+
+.quotes2 .carousel-control-next-icon {
+  height: 40px;
+  width: 40px;
+  line-height: 30px;
+}
+
+.quotes2 .carousel-control-next-icon:after {
+  content: '>';
+  color: black;
+  font-size: 40px;
+}
+
+.people-say {
+  min-height: 500px;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .people-say {
+    height: 700px;
+  }
+}
+
+.people-say::after {
+  content: "";
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url("https://pathfiinder.github.io/MoGo/images/people-say__bgc.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+}
 /*# sourceMappingURL=main.css.map */
