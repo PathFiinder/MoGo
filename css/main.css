@@ -1676,9 +1676,61 @@ body {
   right: 0;
   position: absolute;
   z-index: -1;
-  background-image: url("https://pathfiinder.github.io/MoGo/images/map.png");
+  background-image: url("https://pathfiinder.github.io/MoGo/images/map_1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
+}
+
+.map .map-wrapper {
+  height: 86px;
+  width: 132px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  overflow: hidden;
+  text-align: center;
+  color: #f38181;
+}
+
+.map .map-wrapper .map__icon {
+  height: 26px;
+  width: 20px;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 5px;
+}
+
+.map .map-wrapper .map__title {
+  font-size: 22px;
+  margin: 10px 0;
+  position: relative;
+}
+
+.map .map-wrapper .map__title:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 50%;
+  height: 2px;
+  background-color: #f38181;
+}
+
+.site-map {
+  background-color: #f8f8f8;
+  min-height: 560px;
+}
+
+.footer {
+  border-top: 1px solid #e5e5e5;
+}
+
+.footer .footer--color {
+  color: #f38181;
 }
 /*# sourceMappingURL=main.css.map */
