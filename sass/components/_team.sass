@@ -19,10 +19,84 @@
         width: 90%
         margin: 0 auto
     .row
-        text-align: center
-        .team__image
+        margin: 0 auto
+        @media (min-width: 576px)
+            flex-wrap: nowrap
+        .team__item
             width: 100%
-            max-width: 450px
+            min-height: 470px
+            height: 80%
+            padding: 0
+            position: relative
             @media (min-width: 576px)
                 max-width: auto
-        
+            &--first
+                background-image: url("https://pathfiinder.github.io/MoGo/images/team_1.png")
+                background-repeat: no-repeat
+                background-size: 100% 100%
+                @media (min-width: 576px)
+                    margin-right: 10px
+            &--second
+                background-image: url("https://pathfiinder.github.io/MoGo/images/team_2.png")
+                background-repeat: no-repeat
+                background-size: 100% 100%
+                @media (min-width: 576px)
+                    margin-right: 10px
+            &--third
+                background-image: url("https://pathfiinder.github.io/MoGo/images/team_3.png")
+                background-repeat: no-repeat
+                background-size: 100% 100%
+            .overlay
+                display: none
+                background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%)
+                height: 100%
+            .team__item-container
+                background-color: #fce38a
+                width: 224px
+                height: 56px
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%,-50%)
+                display: none
+                flex-direction: row
+                @media (min-width: 576px)
+                    width: 120px
+                    height: 40px
+                @media (min-width: 768px)
+                    width: 160px
+                @media (min-width: 992px)
+                    width: 224px
+                    height: 56px
+                .team__icon
+                    flex-basis: 25%
+                    border: 0.5px solid #f38181
+                    font-size: 32px
+                    text-align: center
+                    line-height: 56px
+                    color: #f38181
+                    @media (min-width: 576px)
+                        font-size: 24px
+                        line-height: 40px
+                    @media (min-width: 992px)
+                        font-size: 32px
+                        line-height: 56px
+                    &:hover
+                        background-color: #f38181
+                        color: white
+
+        .team__item:hover .overlay
+            display: block
+        .team__item:hover .team__item-container
+            display: flex
+        .team__item-single
+            .team__item-name
+                padding-top: 10px
+                font-size: 14px
+                @media (min-width: 992px)
+                    font-size: 18px
+            .team__item-stand
+                font-size: 15px
+                color: #999999
+                @media (min-width: 992px)
+                    font-size: 19px
