@@ -2,7 +2,7 @@
     min-height: 500px
     position: relative
     @media (min-width: 1024px)
-        height: 700px
+        min-height: 700px
     &::after
         content: ""
         opacity: 0.4
@@ -16,3 +16,56 @@
         background-repeat: no-repeat
         background-size: 100% 100%
         background-color: rgba(255,255,255,1)
+    .people-say__title
+        font-family: "Kaushan Script"
+        font-size: x-large
+    .people-say__subtitle
+        position: relative
+        &:before
+            content: ""
+            position: absolute
+            bottom: -22px
+            left: 50%
+            transform: translateX(-50%)
+            height: 3px
+            width: 70px
+            background-color: red 
+    .people-say__image
+        position: absolute
+        top: 50%
+        left: 10px
+        transform: translateY(-50%)
+    .people-say__item
+        min-height: 170px
+        @media (min-width: 576px)
+            min-height: 200px
+        .people-say__name
+            font-size: 16px
+            position: absolute
+            top: 20px
+            left: 135px
+        .people-say__stand
+            font-size: 14px
+            position: absolute
+            top: 40px
+            left: 135px
+            color: #333333
+            &::before
+                content: ""
+                position: absolute
+                bottom: -10px
+                left: 2px
+                height: 2px
+                width: 40px
+                background-color: red
+        .people-say__content
+            font-size: 11px
+            width: 50%
+            position: absolute
+            top: 75px
+            left: 135px
+            @media (min-width: 576px)
+                color: #999999
+            @media (min-width: 1024px)
+                font-size: 13px
+            

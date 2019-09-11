@@ -1,0 +1,63 @@
+.blog
+    .blog__title
+        font-family: "Kaushan Script"
+        font-size: x-large
+    .blog__subtitle
+        position: relative
+        &:before
+            content: ""
+            position: absolute
+            bottom: -22px
+            left: 50%
+            transform: translateX(-50%)
+            height: 3px
+            width: 70px
+            background-color: red 
+    .blog__item
+        height: 320px
+        overflow: hidden
+        padding: 10px
+        position: relative
+        .blog__image
+            max-height: 184px 
+        .blog__header1
+            font-size: 16px
+        .blog__content
+            font-size: 12px
+            color: #999999
+            width: 80%
+            margin: 5px auto
+            text-align: left
+            position: relative
+            &:after
+                content: ""
+                height: 1px
+                width: 120%
+                position: absolute
+                bottom: -10px
+                left: -10%
+                background-color: #e5e5e5
+        .blog__container
+            height: 15px
+            width: 120px
+            overflow: hidden
+            position: absolute
+            bottom: 12px
+            left: 5%
+            display: flex
+            flex-direction: row
+            .blog__single-item
+                display: flex
+                flex-direction: row
+                height: 15px
+                flex-basis: 50%
+                .blog__icon
+                    flex-basis: 40%
+                    line-height: 15px
+                    color: #95e1d3
+                .blog__number
+                    flex-grow: 1
+                    line-height: 15px
+                    color: #999999
+                    font-size: 17px
+                    text-align: left

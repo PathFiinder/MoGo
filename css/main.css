@@ -1302,7 +1302,6 @@ body {
 
 .quotes2 .carousel-item {
   height: 315px;
-  position: relative;
 }
 
 .quotes2 .carousel-item .quotes2__image {
@@ -1459,7 +1458,7 @@ body {
 
 @media (min-width: 1024px) {
   .people-say {
-    height: 700px;
+    min-height: 700px;
   }
 }
 
@@ -1473,6 +1472,211 @@ body {
   position: absolute;
   z-index: -1;
   background-image: url("https://pathfiinder.github.io/MoGo/images/people-say__bgc.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: white;
+}
+
+.people-say .people-say__title {
+  font-family: "Kaushan Script";
+  font-size: x-large;
+}
+
+.people-say .people-say__subtitle {
+  position: relative;
+}
+
+.people-say .people-say__subtitle:before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 3px;
+  width: 70px;
+  background-color: red;
+}
+
+.people-say .people-say__image {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.people-say .people-say__item {
+  min-height: 170px;
+}
+
+@media (min-width: 576px) {
+  .people-say .people-say__item {
+    min-height: 200px;
+  }
+}
+
+.people-say .people-say__item .people-say__name {
+  font-size: 16px;
+  position: absolute;
+  top: 20px;
+  left: 135px;
+}
+
+.people-say .people-say__item .people-say__stand {
+  font-size: 14px;
+  position: absolute;
+  top: 40px;
+  left: 135px;
+  color: #333333;
+}
+
+.people-say .people-say__item .people-say__stand::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 2px;
+  height: 2px;
+  width: 40px;
+  background-color: red;
+}
+
+.people-say .people-say__item .people-say__content {
+  font-size: 11px;
+  width: 50%;
+  position: absolute;
+  top: 75px;
+  left: 135px;
+}
+
+@media (min-width: 576px) {
+  .people-say .people-say__item .people-say__content {
+    color: #999999;
+  }
+}
+
+@media (min-width: 1024px) {
+  .people-say .people-say__item .people-say__content {
+    font-size: 13px;
+  }
+}
+
+.blog .blog__title {
+  font-family: "Kaushan Script";
+  font-size: x-large;
+}
+
+.blog .blog__subtitle {
+  position: relative;
+}
+
+.blog .blog__subtitle:before {
+  content: "";
+  position: absolute;
+  bottom: -22px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  height: 3px;
+  width: 70px;
+  background-color: red;
+}
+
+.blog .blog__item {
+  height: 320px;
+  overflow: hidden;
+  padding: 10px;
+  position: relative;
+}
+
+.blog .blog__item .blog__image {
+  max-height: 184px;
+}
+
+.blog .blog__item .blog__header1 {
+  font-size: 16px;
+}
+
+.blog .blog__item .blog__content {
+  font-size: 12px;
+  color: #999999;
+  width: 80%;
+  margin: 5px auto;
+  text-align: left;
+  position: relative;
+}
+
+.blog .blog__item .blog__content:after {
+  content: "";
+  height: 1px;
+  width: 120%;
+  position: absolute;
+  bottom: -10px;
+  left: -10%;
+  background-color: #e5e5e5;
+}
+
+.blog .blog__item .blog__container {
+  height: 15px;
+  width: 120px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 12px;
+  left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.blog .blog__item .blog__container .blog__single-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 15px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.blog .blog__item .blog__container .blog__single-item .blog__icon {
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+  line-height: 15px;
+  color: #95e1d3;
+}
+
+.blog .blog__item .blog__container .blog__single-item .blog__number {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  line-height: 15px;
+  color: #999999;
+  font-size: 17px;
+  text-align: left;
+}
+
+.map {
+  height: 200px;
+  position: relative;
+}
+
+.map::after {
+  content: "";
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  background-image: url("https://pathfiinder.github.io/MoGo/images/map.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
