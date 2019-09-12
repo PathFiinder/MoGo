@@ -28,19 +28,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
                     <ul class="navbar-nav navbar-right">
                         <li class="nav-item">
-                            <a href="#" class="nav-link nav-after text-white text-center">ABOUT</a>
+                            <a href="#" class="nav-link nav-after nav-link--about-us text-white text-center">ABOUT</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link nav-after text-white text-center">SERVICE</a>
+                            <a href="#" class="nav-link nav-after nav-link--services text-white text-center">SERVICE</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link nav-after text-white text-center">WORK</a>
+                            <a href="#" class="nav-link nav-after nav-link--work text-white text-center">WORK</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link nav-after text-white text-center">BLOG</a>
+                            <a href="#" class="nav-link nav-after nav-link--blog text-white text-center">BLOG</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link nav-after text-white text-center">CONTACT</a>
+                            <a href="#" class="nav-link nav-after nav-link--contact text-white text-center">CONTACT</a>
                         </li>
                         <li class="nav-item">
                             <i class="nav-link fas fa-shopping-cart text-white text-center"></i>
@@ -610,11 +610,11 @@
             <h2 class="map__title font-weight-bold text-uppercase">Open Map</h2>
         </div>
     </section>
-    <section class="site-map">
+    <section class="site-map pt-4">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 col-sm-6 col-xs-12 site-map__item">
-                    <h2 class="site-map__item-title">MoGo</h2>
+                <div class="col-md-4 col-sm-6 col-xs-12 site-map__item site-map__item--first pt-3 mb-2">
+                    <h2 class="site-map__item-title font-weight-bold">MoGo</h2>
                     <p class="site-map__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -634,21 +634,73 @@
                         </div>
                     </div>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control rounded-0" placeholder="Your Email" aria-label="Your Email" aria-describedby="button-addon2">
+                        <input type="text" class="form-control rounded-0" placeholder="Your Email"
+                            aria-label="Your Email" aria-describedby="button-addon2">
                         <div class="input-group-append">
-                          <button class="btn btn-outline-success rounded-0" type="button" id="button-addon2">Subscribe</button>
+                            <button class="btn rounded-0 text-uppercase text-white font-weight-bold" type="button"
+                                id="button-addon2">Subscribe</button>
                         </div>
-                      </div>
+                    </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 site-map__item"></div>
+                <div class="col-md-4 col-sm-6 col-xs-12 site-map__item site-map__item--second pt-3 mb-2">
+                    <h2 class="site-map__subtitle text-uppercase">Blogs</h2>
+                    <div class="site-map__blogs-wrapper">
+                        <div class="site-map__blogs-items">
+                            <img src="images/site-map__blog_1.png" alt="Site map blog image"
+                                class="img-fluid site-map__blogs-image">
+                            <h3 class="site-map__blogs-title text-uppercase">Lorem ipsum dolor sit amet, consectetur
+                                adipiscing</h3>
+                            <p class="site-map__blogs-date">Jan 9,2016</p>
+                        </div>
+                        <div class="site-map__blogs-items">
+                            <img src="images/site-map__blog_2.png" alt="Site map blog image"
+                                class="img-fluid site-map__blogs-image">
+                            <h3 class="site-map__blogs-title text-uppercase">Consectetur adipiscing elit, sed do eiusmod
+                                tempor</h3>
+                            <p class="site-map__blogs-date">Jan 9,2016</p>
+                        </div>
+                        <div class="site-map__blogs-items">
+                            <img src="images/site-map__blog_3.png" alt="Site map blog image"
+                                class="img-fluid site-map__blogs-image">
+                            <h3 class="site-map__blogs-title text-uppercase">Sed do eiusmod tempor incididunt ut labore
+                            </h3>
+                            <p class="site-map__blogs-date">Jan 9,2016</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="offset-md-0 offset-sm-3"></div>
-                <div class="col-md-4 col-sm-6 col-xs-12 site-map__item"></div>
+                <div class="col-md-4 col-sm-6 col-xs-12 site-map__item site-map__item--third pt-3 mb-2">
+                    <h2 class="site-map__inst text-uppercase">Instagram</h2>
+                    <div class="site-map__inst-wrapper">
+                        <img src="images/site-map__inst_1.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_2.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_3.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_4.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_5.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_6.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_7.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_8.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                        <img src="images/site-map__inst_9.png" alt="Site map instagram image"
+                            class="img-fluid site-map__inst-item">
+                    </div>
+                    <p class="site-map__inst-more">View more photos</p>
+                </div>
             </div>
         </div>
     </section>
-    <footer class="footer text-center">
+    <footer class="footer text-center py-3">
         <h2 class="h6">© 2019 MoGo free PSD template by <span class="footer--color">PathFiinder</span></h2>
     </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
@@ -658,6 +710,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
 </body>
 

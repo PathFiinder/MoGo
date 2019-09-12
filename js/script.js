@@ -1,6 +1,33 @@
 window.addEventListener('DOMContentLoaded', function () {
 
 
+    //Scroll 
+
+    const aboutUsPosTop = $('.about-us').offset().top
+    const servicesPosTop = $('.services').offset().top
+    const workPosTop = $('.work').offset().top
+    const blogPosTop = $('.blog').offset().top
+    const contactPosTop = $('.site-map').offset().top
+
+    const positionTopArray = [aboutUsPosTop, servicesPosTop, workPosTop, blogPosTop, contactPosTop]
+    const navButtonArray = ['about-us', 'services', 'work', 'blog', 'contact'];
+
+    function toScroll(positionTop) {
+        $('body, html').animate({
+            scrollTop: positionTop
+        }, 1000)
+        document.querySelector('#navbarMenu').classList.remove('show')
+    }
+
+    navButtonArray.forEach((element, index) => {
+        document.querySelector(`.nav-link--${element}`).addEventListener('click', () => {
+            toScroll(positionTopArray[index])
+        })
+    });
+
+
+
+    //Slider (quotes) - Accordion
     const servicesTwoAccordion = document.querySelector('#accordion');
 
 

@@ -1,4 +1,188 @@
 .site-map
     background-color: #f8f8f8
     min-height: 560px
-    
+    @media (min-width: 768px)
+        min-height: 400px
+    .row
+        @media (min-width: 992px)
+            flex-wrap: nowrap
+    &__item
+        height: 356px
+        &--first
+            position: relative
+            @media (min-width: 992px)
+                margin-right: 10px
+            &::after
+                content: ""
+                position: absolute
+                top: 210px
+                left: 50%
+                transform: translateX(-50%)
+                width: 92%
+                height: 2px
+                background-color: #e5e5e5
+                @media (min-width: 576px)
+                    top: 240px
+            .site-map__item-title
+                color: #cccccc
+                position: absolute
+                top: 5px
+                left: 15px
+            .site-map__content
+                color: #999999
+                font-size: 14px
+                position: absolute
+                top: 50px
+                left: 15px
+            .site-map__followers
+                font-size: 15px
+                position: absolute
+                top: 170px
+                left: 15px
+                @media (min-width: 576px)
+                    top: 200px
+                &--number
+                    font-size: 18px
+            .site-map__container
+                display: flex
+                flex-direction: row
+                width: 290px
+                height: 30px
+                line-height: 30px
+                position: absolute
+                top: 220px
+                left: 15px
+                @media (min-width: 576px)
+                    top: 260px
+                    width: 250px
+                @media (min-width: 768px)
+                    width: 220px
+                @media (min-width: 992px)
+                    width: 280px
+                &-name
+                    flex-basis: 30%
+                    color: #999999
+                    font-size: 15px
+                    @media (min-width: 768px)
+                        font-size: 14px
+                    @media (min-width: 992px)
+                        font-size: 16px
+                &-icons
+                    flex-grow: 1
+                    display: flex
+                    flex-direction: row
+                    .site-map__container-icon 
+                        flex-basis: 12.5%
+                        line-height: 30px
+                        text-align: center
+                        font-size: 18px
+                        color: #95e1d3
+                        @media (min-width: 768px)
+                            font-size: 16px
+                        @media (min-width: 992px)
+                            font-size: 18px
+            .input-group
+                position: absolute
+                top: 260px
+                left: 15px
+                width: calc(100% - 30px)
+                max-width: 379px
+                height: 40px
+                @media (min-width: 576px)
+                    top: 315px
+                .btn
+                    background-color: #95e1d3
+        &--second
+            overflow: hidden
+            position: relative
+            @media (min-width: 992px)
+                margin-right: 10px
+            .site-map__subtitle
+                font-size: 18px
+                position: absolute
+                top: 10px
+                left: 15px
+            .site-map__blogs-wrapper
+                position: absolute
+                top: 40px
+                left: 15px
+                width: calc(100% - 30px)
+                height: calc(100% - 48px - 2px)
+                overflow: hidden
+                display: flex
+                flex-direction: column
+                @media (min-width: 768px)
+                    height: calc(100% - 28px)
+                .site-map__blogs-items
+                    height: 33.33%
+                    position: relative
+                    .site-map__blogs-image
+                        position: absolute
+                        top: 50%
+                        left: 10px
+                        transform: translateY(-50%)
+                        @media (min-width: 768px)
+                            width: 100px
+                        @media (min-width: 992px)
+                            width: auto
+                    .site-map__blogs-title
+                        position: absolute
+                        top: 40%
+                        left: 140px
+                        transform: translateY(-50%)
+                        font-size: 11px
+                        width: 48%
+                        @media (min-width: 576px)
+                            width: 40%
+                        @media (min-width: 768px)
+                            left: 120px
+                            font-size: 9.5px
+                            width: 40%
+                        @media (min-width: 992px)
+                            left: 140px
+                            font-size: 11px
+                            width: 50%
+                    .site-map__blogs-date
+                        color: #999999
+                        font-size: 9.5px
+                        position: absolute
+                        top: 60%
+                        left: 140px
+                        @media (min-width: 576px)
+                            top: 68%
+                        @media (min-width: 768px)
+                            left: 120px
+                        @media (min-width: 992px)
+                            left: 140px
+                            font-size: 11px
+        &--third
+            overflow: hidden
+            position: relative
+            .site-map__inst 
+                font-size: 18px
+                position: absolute
+                top: 10px
+                left: 15px
+            .site-map__inst-wrapper
+                position: absolute
+                top: 40px
+                left: 15px
+                width: calc(100% - 30px)
+                height: calc(100% - 78px)    
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                .site-map__inst-item
+                    padding: 2px
+                    width: 33.33%
+                    height: 33.33%       
+            .site-map__inst-more
+                color: #333333
+                font-size: 15px
+                position: absolute
+                bottom: -5px
+                left: 15px
+                @media (min-width: 768px)
+                    bottom: -10px
+
+

@@ -26,8 +26,9 @@
                 flex-direction: row
                 flex-wrap: wrap
             .work__item
-                margin: 4px
-                flex-basis: calc(50% - 8px)
+                @media (min-width: 576px)
+                    margin: 4px
+                    flex-basis: calc(50% - 8px)
         .work__col--2
             @media (min-width: 576px)
                 padding-right: 0
