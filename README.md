@@ -2,10 +2,11 @@ MoGo - PSD to HTML
 
 Tech used:
  - HTML5
- - BEM
- - CSS3(GRID)
+ - CSS3
  - SASS
- - JavaScript (ES5+)
+ - Boostrap 4
+ - JQuery
+ - JavaScript
  
 
 Live: https://pathfiinder.github.io/MoGo/.
