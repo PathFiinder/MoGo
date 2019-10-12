@@ -12,4 +12,4 @@ Tech used:
  - JavaScript
  
 
-Live: https://pathfiinder.github.io/MoGo/.
+Live: https://pathfiinder.github.io/MoGo-PSD-to-HTML/
