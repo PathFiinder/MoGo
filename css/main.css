@@ -9,7 +9,7 @@ body {
 .header {
   height: 100vh;
   min-height: 100vh;
-  background-image: url("https://pathfiinder.github.io/MoGo/images/header__bgc-image.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/header__bgc-image.png");
   background-repeat: no-repeat;
   background-size: 150% 100%;
   background-position-x: -120px;
@@ -344,19 +344,19 @@ body {
 }
 
 .about-us .container .row .about-us-1 {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/about-us-3.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/about-us-3.png");
   border-right: white solid 10px;
   margin-bottom: 10px;
 }
 
 .about-us .container .row .about-us-2 {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/about-us-2.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/about-us-2.png");
   border-right: white solid 10px;
   margin-bottom: 10px;
 }
 
 .about-us .container .row .about-us-3 {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/about-us-1.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/about-us-1.png");
   border-right: white solid 10px;
   margin-bottom: 10px;
 }
@@ -536,7 +536,7 @@ body {
   right: 0;
   position: absolute;
   z-index: -1;
-  background-image: url("https://pathfiinder.github.io/MoGo/images/design_bgc.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/design_bgc.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
@@ -926,7 +926,7 @@ body {
 }
 
 .team .row .team__item--first {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/team_1.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/team_1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -938,7 +938,7 @@ body {
 }
 
 .team .row .team__item--second {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/team_2.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/team_2.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -950,7 +950,7 @@ body {
 }
 
 .team .row .team__item--third {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/team_3.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/team_3.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -1151,23 +1151,23 @@ body {
 }
 
 .work .row .work__item--one {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/work_1.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/work_1.png");
 }
 
 .work .row .work__item--two {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/work_2.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/work_2.png");
 }
 
 .work .row .work__item--three {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/work_3.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/work_3.png");
 }
 
 .work .row .work__item--four {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/work_4.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/work_4.png");
 }
 
 .work .row .work__item--five {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/work_5.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/work_5.png");
   height: 580px;
 }
 
@@ -1178,11 +1178,11 @@ body {
 }
 
 .work .row .work__item--six {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/work_6.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/work_6.png");
 }
 
 .work .row .work__item--seven {
-  background-image: url("https://pathfiinder.github.io/MoGo/images/work_7.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/work_7.png");
 }
 
 .work .row .work__item .overlay {
@@ -1473,7 +1473,7 @@ body {
   right: 0;
   position: absolute;
   z-index: -1;
-  background-image: url("https://pathfiinder.github.io/MoGo/images/people-say__bgc.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/people-say__bgc.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
@@ -1678,7 +1678,7 @@ body {
   right: 0;
   position: absolute;
   z-index: -1;
-  background-image: url("https://pathfiinder.github.io/MoGo/images/map_1.png");
+  background-image: url("https://pathfiinder.github.io/MoGo-PSD-to-HTML/images/map_1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: white;
