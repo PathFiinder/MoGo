@@ -109,7 +109,7 @@ body {
   position: relative;
 }
 
-.header-wrapper .container .carousel .carousel-inner .carousel-h1 {
+.header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h1 {
   font-family: 'Kaushan Script', cursive;
   font-size: xx-large;
   position: absolute;
@@ -121,32 +121,39 @@ body {
 }
 
 @media (min-height: 812px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h1 {
     top: 60px;
   }
 }
 
 @media (min-width: 568px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h1 {
     top: 0px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h1 {
     top: 80px;
     font-size: 72px;
   }
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h1 {
-    top: 80px;
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h1 {
+    top: 60px;
     font-size: 72px;
   }
 }
 
-.header-wrapper .container .carousel .carousel-inner .carousel-h2 {
+@media (min-width: 1280px) {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h1 {
+    top: 40px;
+    font-size: 90px;
+  }
+}
+
+.header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h2 {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 50px;
@@ -158,33 +165,40 @@ body {
 }
 
 @media (min-height: 812px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h2 {
     top: 180px;
   }
 }
 
 @media (min-width: 568px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h2 {
     top: 50px;
     font-size: 40px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h2 {
     top: 240px;
     font-size: 72px;
   }
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .header-wrapper .container .carousel .carousel-inner .carousel-h2 {
-    top: 240px;
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h2 {
+    top: 180px;
     font-size: 72px;
   }
 }
 
-.header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
+@media (min-width: 1280px) {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .carousel-h2 {
+    top: 150px;
+    font-size: 100px;
+  }
+}
+
+.header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:before {
   content: "";
   position: absolute;
   bottom: 110px;
@@ -198,32 +212,32 @@ body {
 }
 
 @media (min-height: 812px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:before {
     bottom: 160px;
   }
 }
 
 @media (min-width: 568px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:before {
     display: none;
   }
 }
 
 @media (min-width: 731px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:before {
     display: block;
     bottom: 90px;
   }
 }
 
 @media (min-width: 812px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:before {
     bottom: 70px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:before {
     bottom: 250px;
     height: 5px;
     width: 100px;
@@ -231,14 +245,14 @@ body {
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light:before {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:before {
     bottom: 120px;
     height: 5px;
     width: 100px;
   }
 }
 
-.header-wrapper .container .carousel .carousel-inner .btn-outline-light {
+.header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light {
   position: absolute;
   bottom: 80px;
   left: 50%;
@@ -249,25 +263,25 @@ body {
 }
 
 @media (min-height: 812px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light {
     bottom: 150px;
   }
 }
 
 @media (min-width: 568px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light {
     bottom: 30px;
   }
 }
 
 @media (min-width: 640px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light {
     bottom: 50px;
   }
 }
 
 @media (min-width: 768px) and (min-height: 1024px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light {
     bottom: 150px;
     height: 80px;
     width: 280px;
@@ -276,7 +290,7 @@ body {
 }
 
 @media (min-width: 1024px) and (min-height: 768px) {
-  .header-wrapper .container .carousel .carousel-inner .btn-outline-light {
+  .header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light {
     bottom: 100px;
     height: 80px;
     width: 280px;
@@ -284,7 +298,7 @@ body {
   }
 }
 
-.header-wrapper .container .carousel .carousel-inner .btn-outline-light:hover {
+.header-wrapper .container .carousel .carousel-inner .carousel-item .btn-outline-light:hover {
   background-color: transparent;
   color: #fce38a;
   border-color: #fce38a;
